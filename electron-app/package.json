@@ -1,0 +1,24 @@
+{
+  "name": "excalidraw-electron",
+  "version": "0.1.0",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "asar": false,
+    "files": [
+      "main.js",
+      "renderer/**"
+    ],
+    "mac": {
+      "category": "public.app-category.productivity"
+    }
+  },
+  "devDependencies": {
+    "electron": "28.1.0",
+    "electron-builder": "24.6.0"
+  }
+}

@@ -110,6 +110,7 @@ Check out our [documentation](https://docs.excalidraw.com/docs/@excalidraw/excal
 
 - [VScode extension](https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor)
 - [npm package](https://www.npmjs.com/package/@excalidraw/excalidraw)
+- [Electron app](./electron-app) - run `yarn build:electron` to package a desktop app
 
 ## Who's integrating Excalidraw
 
